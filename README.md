@@ -82,6 +82,7 @@ WHERE employee_name LIKE 'J%S'
 ```
 
 **12. How many employees are there in each department?**
+
 *Okay wow, det var virkelig svært..*
 ```sql
 SELECT departments.department_name,
@@ -179,6 +180,7 @@ ORDER BY employee_name;
 Med INNER JOIN var det kun de employees hvor der var et match mellem tabellerne
 Med LEFT JOIN kommer alle rækkerne fra venstre med, også dem, der giver null, også KING der ikke har et department_number*
 
+
 **4. Consider this query:**
 ```sql
 SELECT departments.department_name, COUNT(employees.employee_number)
@@ -188,6 +190,7 @@ FROM employees
 GROUP BY department_name;
 ```
 *Der er ingen employees i OPERATIONS, derfor dukker de ikke op i COUNT*
+
 
 **5. To get the missing department change the previous query to use a RIGHT JOIN.**
 ```sql
@@ -208,6 +211,7 @@ ORDER BY employee.employee_name;
 ```
 *Query joiner employee manager til de employees de er manager for.
 Der laves en join på samme tabel, så al info om eployees bliver vist, samt info om hver deres managers.*
+
 
 **7. Get two columns: employees and their managers.**
 ```sql
@@ -239,6 +243,7 @@ WHERE salary > (SELECT AVG(salary) FROM employees);
 _____________________________________________________________________________________________
 # JOIN TABLE (MANY-TO-MANY)
 **Create a new table called leaders and insert rows into it.**
+
 *Sorry Anders, det er for svært... Kan ikke finde ud af det, så den sidste del er AI...
 Tænker, du nok ikke er super tilfreds med det.. men sådan blev det. Vil heller have en færdig opgave, som jeg kan bruge og referere til senere.*
 ```sql
