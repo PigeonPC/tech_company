@@ -1,4 +1,4 @@
-# Tech company
+# Tech company - Olga / PigeonPC
 _____________________________________________________________________________________________
 ## SINGLE TABLE ASSIGNMENTS
 **1. Find the employee number for employees named MARTIN.**
